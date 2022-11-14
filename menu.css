@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-columns:  1fr 3fr;
+}
+
+.lest {
+    display: inline-block;
+}
+.lithuyet{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.lithuyet{
+    text-align: center;
+}
+.rightmenu{
+    list-style: none;
+    line-height: 35px;
+}
+.add-to-cart {
+    display: flex;
+}
+.right2{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.icon {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    margin-left: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lest{
+    border-radius: 10px 10px 0 0;
+}
+.right3{
+    display: flex;
+    width: 145px;
+    justify-content: center;
+    align-items: center;
+}
+.right3 >input {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 88px;
+    padding: 5px 10px;
+}
